@@ -2,11 +2,102 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>SkilChad</title>
+		<title>FrontendKit</title>
 		<script src="js/FrontendJS/frontend.js"></script>
 		<link rel="stylesheet" href="css/FrontendCSS/themes/theme_dark.css">
 		<link rel="stylesheet" href="css/FrontendCSS/frontend.css">
 	</head>
-	<body>
+	<body class="fl-col">
+
+		<header class="flex flex-row items-center justify-between px-large">
+			<span class="txt-larger txt-primary" style="font-weight:700; letter-spacing: -0.5px;">
+				Frontend<span class="txt-lighter">Kit</span>
+			</span>
+
+			<div class="toolbar items-center gap-medium">
+				<a href="#">Home</a>
+				<a href="#">Docs</a>
+				<a href="#">Components</a>
+				<a href="#">About</a>
+				<a href="#" class="btn btn-primary btn-sm rounded-md">Login</a>
+			</div>
+		</header>
+
+		<content class="grow">
+
+			<!-- Hero -->
+			<div class="flex flex-col items-center justify-center txt-center py-large" style="min-height: 42vh;">
+				<h1 class="txt-lightest" style="font-size: 3rem; letter-spacing: -1px;">Welcome to <span class="txt-primary">FrontendKit</span></h1>
+				<p class="txt-lighter mt-small" style="max-width: 480px; line-height: 1.7;">
+					A lightweight, no-nonsense toolkit for building clean, consistent web interfaces — fast.
+				</p>
+				<div class="flex flex-row gap-medium mt-medium">
+					<a href="#" class="btn btn-primary rounded-md">Get Started</a>
+					<a href="https://github.com/64bit-Paperclip/FrontendKit" class="btn btn-ghost rounded-md">View on GitHub</a>
+                    
+				</div>
+			</div>
+
+			<!-- Cards -->
+			<div class="flex flex-row flex-wrap justify-center gap-large p-large">
+
+				<div class="card rounded-lg border-primary" style="width: 300px; min-height: 200px;">
+					<div class="header">
+						<span>FrontendJS</span>
+					</div>
+					<div class="content gap-medium" style="flex-grow:1;">
+						<p class="txt-lighter txt-small mt-small">
+							Lightweight JavaScript utilities and interactive components. No dependencies, no fluff. Just clean, composable JS.
+						</p>
+					</div>
+					<div class="footer justify-between">
+						<a href="#" class="btn btn-primary btn-outline btn-sm rounded-sm">Get Started →</a>
+                        <a href="https://github.com/64bit-Paperclip/FrontendJS" class="btn btn-info btn-outline btn-sm rounded-sm">GitHub</a>
+					</div>
+				</div>
+
+				<div class="card rounded-lg border-secondary" style="width: 300px; min-height: 200px;">
+					<div class="header">
+						<span>FrontendCSS</span>
+					</div>
+					<div class="content gap-medium" style="flex-grow:1;">
+						<p class="txt-lighter txt-small mt-small">
+							A utility-first CSS library with theming, layout primitives, and ready-made components. Dark theme included out of the box.
+						</p>
+					</div>
+					<div class="footer justify-between">
+						<a href="#" class="btn btn-secondary btn-outline btn-sm rounded-sm">Get Started →</a>
+                        <a href="https://github.com/64bit-Paperclip/FrontendCSS" class="btn btn-info btn-outline btn-sm rounded-sm">GitHub</a>
+					</div>
+				</div>
+
+				<div class="card rounded-lg border-accent" style="width: 300px; min-height: 200px;">
+					<div class="header">
+						<span>FrontendKit</span>
+					</div>
+					<div class="content gap-medium" style="flex-grow:1;">
+						<p class="txt-lighter txt-small mt-small">
+							Pure JS and CSS working together as one cohesive kit. Start a project in minutes, not hours.
+						</p>
+					</div>
+					<div class="footer justify-between">
+						<a href="#" class="btn btn-accent btn-outline btn-sm rounded-sm">Get Started →</a>
+                        <a href="https://github.com/64bit-Paperclip/FrontendKit" class="btn btn-info btn-outline btn-sm rounded-sm">GitHub</a>
+					</div>
+				</div>
+
+			</div>
+
+		</content>
+
+		<footer class="flex flex-row items-center justify-between px-large py-medium border-top txt-small txt-darker">
+			<span>© 2026 FrontendKit</span>
+			<div class="flex flex-row gap-medium">
+				<a href="#">Docs</a>
+				<a href="#">GitHub</a>
+				<a href="#">License</a>
+			</div>
+		</footer>
+
 	</body>
 </html>
