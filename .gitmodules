@@ -1,3 +1,6 @@
 [submodule "js/FrontendJS"]
 	path = js/FrontendJS
 	url = https://github.com/64bit-Paperclip/FrontendJS
+[submodule "css/FrontendCSS"]
+	path = css/FrontendCSS
+	url = https://github.com/64bit-Paperclip/FrontendCSS
